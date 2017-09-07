@@ -1,3 +1,30 @@
+# Melchi's additions (to ignore MSVC output files)
+*.obj
+*.lib
+*.dll
+*.pdb
+*.ilk
+*.sdf
+*.opensdf
+*.tlog
+/win64/CMakeFiles/
+/win64/test-reader.dir/
+/win64/test-version.dir/
+/win64/yaml.dir/
+/win64/yaml_static.dir/
+/win64/x64/
+/win64/Release/
+/win64/RelWithDebInfo/
+/win64/Debug/
+/win32/CMakeFiles/
+/win32/test-reader.dir/
+/win32/test-version.dir/
+/win32/yaml.dir/
+/win32/yaml_static.dir/
+/win32/Release/
+/win32/RelWithDebInfo/
+/win32/Debug/
+# Original values
 .deps/
 .libs/
 *~
